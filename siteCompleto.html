@@ -33,13 +33,13 @@
           <a class="nav-link text-light" href="siteCompleto.html">Home <span class="sr-only">(página atual)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#">Quem Somos</a>
+          <a class="nav-link text-light" href="#historia">História</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#">História</a>
+          <a class="nav-link text-light" href="#produtos">Produtos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#">Produtos</a>
+          <a class="nav-link text-light" href="#form">Contato</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -47,10 +47,10 @@
           Redes Sociais
           </a>
       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Facebook</a>
-          <a class="dropdown-item" href="#">instagram</a>
+          <a class="dropdown-item" href="https://www.facebook.com/" target="_blank">Facebook</a>
+          <a class="dropdown-item" href="https://www.instagram.com/" target="_blank">instagram</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Twitter</a>
+          <a class="dropdown-item" href="https://www.twitter.com/" target="_blank">Twitter</a>
       </div>
         </li>
       </ul>
@@ -104,7 +104,7 @@
   <!--/Carousel-->
 
   <!--Jumbotron-->
-  <div class="jumbotron bg-secondary">
+  <div class="jumbotron bg-secondary" id="historia">
     <h1 class="display-4">História</h1>
     <p class="lead">Mussum Ipsum, cacilds vidis litro abertis. Casamentiss faiz malandris se pirulitá.</p>
     <hr class="my-4">
@@ -116,7 +116,7 @@
 
   <!--Cards-->
   <div class="container">
-    <div class="card-group">
+    <div class="card-group" id="produtos">
         <div class="card">
           <img class="card-img-top" src="assets/img/frappuccino.jpg" alt="Imagem de um frappuccino">
           <div class="card-body">
@@ -182,7 +182,7 @@
 
     <div class="row d-flex align-items-center">
       <div class="col-md-6">
-        <form>
+        <form id="form">
           <div class="form-group">
             <label for="nome">Nome</label>
             <input type="nome" class="form-control" id="nome" placeholder="Gustavo" onkeyup="validaNome()">
